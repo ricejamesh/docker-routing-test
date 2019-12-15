@@ -1,0 +1,19 @@
+version: "3.5"
+services:
+    routing-test-alpine:
+        image: routing-test-alpine
+        build:
+            context: .
+            dockerfile: Dockerfile-alpine
+        networks: 
+            - my-net
+
+    routing-test-centos:
+        image: routing-test-centos
+        build:
+            context: .
+            dockerfile: Dockerfile-centos
+        networks: 
+            - my-net
+networks: 
+    my-net:

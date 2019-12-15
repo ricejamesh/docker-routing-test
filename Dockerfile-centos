@@ -1,0 +1,10 @@
+FROM centos
+
+RUN yum install -y curl && \
+    yum install -y syslinux && \
+    yum -y clean all --enablerepo='*'
+
+
+# CMD gethostip www.google.com
+
+CMD gethostip www.google.com
