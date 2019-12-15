@@ -4,6 +4,6 @@ RUN apk update && \
     apk add curl && \
     apk add syslinux
 
-# CMD gethostip www.google.com
+# CMD curl www.google.com
 
 CMD gethostip www.google.com
