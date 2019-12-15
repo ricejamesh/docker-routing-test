@@ -14,3 +14,9 @@ The following containers are used:
 
 1. `docker-compose build`
 1. `docker-compose up`
+
+### Expected output
+
+Inline-style: 
+![Expected Output](./static/example-output.png "Expected output")
+
