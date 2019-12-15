@@ -6,5 +6,5 @@ This is accomplished using `gethostip www.google.com`
 
 The following containers are used:
 
-1. alpine [Dockerfile-alpine](./blob/master/Dockerfile-alpine)
-1. centos [Dockerfile-centos](./blob/master/Dockerfile-centos)
+1. alpine [Dockerfile-alpine](./Dockerfile-alpine)
+1. centos [Dockerfile-centos](./Dockerfile-centos)
