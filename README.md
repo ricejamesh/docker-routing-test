@@ -9,6 +9,13 @@ The following containers are used:
 1. alpine [Dockerfile-alpine](./Dockerfile-alpine)
 1. centos [Dockerfile-centos](./Dockerfile-centos)
 
+```
+sudo iptables -v -L
+sudo iptables-save > /etc/my-iptables.rules
+```
+
+Docker iptables notes:
+https://docs.docker.com/network/iptables/
 
 ### Run this...
 

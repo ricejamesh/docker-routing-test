@@ -6,4 +6,7 @@ RUN apk update && \
 
 # CMD curl www.google.com
 
-CMD gethostip www.google.com
+# CMD gethostip www.google.com
+CMD curl 192.168.0.168:8880
+
+# CMD ping 192.168.0.168
